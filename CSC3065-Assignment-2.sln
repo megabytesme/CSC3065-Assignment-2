@@ -1,0 +1,86 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "editor-monitoring", "editor-monitoring", "{987C42C9-990A-09FC-3583-A0BF449DB296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "editor-reverse-proxy", "editor-reverse-proxy", "{92E3A8F3-8B5F-1059-6FC0-3303168C5E6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "editor-vowel-count", "editor-vowel-count", "{3D224DCE-E617-33EA-206D-A67AE8989DC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63D6542A-FE94-8B46-4388-1195B2EBCF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorService", "editor-monitoring\src\monitor-service\MonitorService.csproj", "{6874A6B2-44BA-37FC-8BB0-9D3722ABC27E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4B860CC9-9C67-B419-60F5-24F12A84EFD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorService.Tests", "editor-monitoring\tests\MonitorService.Tests\MonitorService.Tests.csproj", "{9B1DE955-F22A-F9B3-4CAC-B821B470BC8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC7AE48C-B5DD-655B-3CF2-F4D60C9F513F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorReverseProxy", "editor-reverse-proxy\src\EditorReverseProxy\EditorReverseProxy.csproj", "{9A0FF3A0-E73C-EDF4-11B3-AF2B5F38F2A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AD5677CC-0BB4-2D7D-407F-069BC1B6ECDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorReverseProxy.Tests", "editor-reverse-proxy\tests\EditorReverseProxy.Tests\EditorReverseProxy.Tests.csproj", "{3FA41E40-C9D0-FDDA-D822-DECC78CB5418}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52C2DFE2-83FE-B4B3-CA37-AF8267DBA188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelCount", "editor-vowel-count\src\VowelCount\VowelCount.csproj", "{46681649-33CB-FB56-9810-ABA325060522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{935547C7-3312-7688-BA17-FD8357C3713E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelCount.Tests", "editor-vowel-count\tests\VowelCount.Tests\VowelCount.Tests.csproj", "{EA87546F-7CDE-E751-D783-D5BB99E53E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6874A6B2-44BA-37FC-8BB0-9D3722ABC27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6874A6B2-44BA-37FC-8BB0-9D3722ABC27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6874A6B2-44BA-37FC-8BB0-9D3722ABC27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6874A6B2-44BA-37FC-8BB0-9D3722ABC27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1DE955-F22A-F9B3-4CAC-B821B470BC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1DE955-F22A-F9B3-4CAC-B821B470BC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1DE955-F22A-F9B3-4CAC-B821B470BC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1DE955-F22A-F9B3-4CAC-B821B470BC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0FF3A0-E73C-EDF4-11B3-AF2B5F38F2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0FF3A0-E73C-EDF4-11B3-AF2B5F38F2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0FF3A0-E73C-EDF4-11B3-AF2B5F38F2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0FF3A0-E73C-EDF4-11B3-AF2B5F38F2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA41E40-C9D0-FDDA-D822-DECC78CB5418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA41E40-C9D0-FDDA-D822-DECC78CB5418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA41E40-C9D0-FDDA-D822-DECC78CB5418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA41E40-C9D0-FDDA-D822-DECC78CB5418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46681649-33CB-FB56-9810-ABA325060522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46681649-33CB-FB56-9810-ABA325060522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46681649-33CB-FB56-9810-ABA325060522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46681649-33CB-FB56-9810-ABA325060522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA87546F-7CDE-E751-D783-D5BB99E53E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA87546F-7CDE-E751-D783-D5BB99E53E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA87546F-7CDE-E751-D783-D5BB99E53E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA87546F-7CDE-E751-D783-D5BB99E53E95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63D6542A-FE94-8B46-4388-1195B2EBCF39} = {987C42C9-990A-09FC-3583-A0BF449DB296}
+		{6874A6B2-44BA-37FC-8BB0-9D3722ABC27E} = {63D6542A-FE94-8B46-4388-1195B2EBCF39}
+		{4B860CC9-9C67-B419-60F5-24F12A84EFD4} = {987C42C9-990A-09FC-3583-A0BF449DB296}
+		{9B1DE955-F22A-F9B3-4CAC-B821B470BC8A} = {4B860CC9-9C67-B419-60F5-24F12A84EFD4}
+		{AC7AE48C-B5DD-655B-3CF2-F4D60C9F513F} = {92E3A8F3-8B5F-1059-6FC0-3303168C5E6D}
+		{9A0FF3A0-E73C-EDF4-11B3-AF2B5F38F2A0} = {AC7AE48C-B5DD-655B-3CF2-F4D60C9F513F}
+		{AD5677CC-0BB4-2D7D-407F-069BC1B6ECDC} = {92E3A8F3-8B5F-1059-6FC0-3303168C5E6D}
+		{3FA41E40-C9D0-FDDA-D822-DECC78CB5418} = {AD5677CC-0BB4-2D7D-407F-069BC1B6ECDC}
+		{52C2DFE2-83FE-B4B3-CA37-AF8267DBA188} = {3D224DCE-E617-33EA-206D-A67AE8989DC3}
+		{46681649-33CB-FB56-9810-ABA325060522} = {52C2DFE2-83FE-B4B3-CA37-AF8267DBA188}
+		{935547C7-3312-7688-BA17-FD8357C3713E} = {3D224DCE-E617-33EA-206D-A67AE8989DC3}
+		{EA87546F-7CDE-E751-D783-D5BB99E53E95} = {935547C7-3312-7688-BA17-FD8357C3713E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02A36E3-3034-4524-9FE5-E4979E7116C0}
+	EndGlobalSection
+EndGlobal

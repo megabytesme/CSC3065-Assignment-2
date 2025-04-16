@@ -1,0 +1,27 @@
+[submodule "editor-average-word-length"]
+	path = editor-average-word-length
+	url = https://github.com/MegaBytesMe/editor-average-word-length.git
+[submodule "editor-charcount"]
+	path = editor-charcount
+	url = https://github.com/MegaBytesMe/editor-charcount.git
+[submodule "editor-comma-counter"]
+	path = editor-comma-counter
+	url = https://github.com/MegaBytesMe/editor-comma-counter.git
+[submodule "editor-frontend"]
+	path = editor-frontend
+	url = https://github.com/MegaBytesMe/editor-frontend.git
+[submodule "editor-monitoring"]
+	path = editor-monitoring
+	url = https://github.com/MegaBytesMe/editor-monitoring.git
+[submodule "editor-palindrome-count"]
+	path = editor-palindrome-count
+	url = https://github.com/MegaBytesMe/editor-palindrome-count.git
+[submodule "editor-reverse-proxy"]
+	path = editor-reverse-proxy
+	url = https://github.com/MegaBytesMe/editor-reverse-proxy.git
+[submodule "editor-vowel-count"]
+	path = editor-vowel-count
+	url = https://github.com/MegaBytesMe/editor-vowel-count.git
+[submodule "editor-wordcount"]
+	path = editor-wordcount
+	url = https://github.com/MegaBytesMe/editor-wordcount.git
